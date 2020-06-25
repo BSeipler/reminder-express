@@ -44,8 +44,10 @@ const mongo = async () => {
   }
 };
 
+const PORT = process.env.PORT || 9000;
+
 // local server
-app.listen(9000, () => {
+app.listen(PORT, () => {
   mongo();
-  console.log(`Listening on port 9000...`);
+  console.log(`Listening on port ${PORT}...`);
 });
