@@ -5,6 +5,8 @@ const authController = require("./authController");
 const { decode } = authController;
 const nodemailer = require("nodemailer");
 
+// This is an added comment
+
 /*******************************************
  Get All Users
  *******************************************/
